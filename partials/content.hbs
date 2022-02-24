@@ -2,7 +2,7 @@
     {{#is "post, home"}}
         <div class="gh-article-meta">
             {{#is "home"}}
-                <span class="gh-article-label">Aktuellster Eintrag</span>
+                <span class="gh-article-label">Neu</span>
             {{/is}}
             <time class="gh-article-date" datetime="{{date format="YYYY-MM-DD"}}">{{date}}</time>
         </div>
@@ -55,7 +55,7 @@
             <div class="gh-navigation-next">
                 {{#next_post}}
                     <a class="gh-navigation-link u-hover" href="{{url}}">
-                        Nächster<span class="gh-navigation-hide">&nbsp;Eintrag</span>
+                        Nächster <span class="gh-navigation-hide">&nbsp;Eintrag</span>
                         <span class="u-hover-arrow">{{> icons/chevron-right}}</span>
                         <span class="u-hover-arrow">{{> icons/chevron-right}}</span>
                     </a>
