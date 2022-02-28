@@ -14,6 +14,7 @@
 </head>
 
 <body class="{{body_class}}{{plural pagination.pages empty="" singular=" no-pagination" plural=""}}{{#match @custom.title_font "=" "Elegant serif"}} has-serif-title{{/match}}{{#match @custom.body_font "=" "Elegant serif"}} has-serif-body{{/match}}">
+<div class="site-cover" style="background-image: url(https://kachiri.de/content/images/2022/02/topography-1-1.svg)">
     <div class="gh-site">
         <header id="gh-head" class="gh-head gh-outer">
             <div class="gh-head-inner">
@@ -56,6 +57,7 @@
             </div>
         </footer>
     </div>
+</div>
 
     {{#is "post, page"}}
         {{> pswp}}
